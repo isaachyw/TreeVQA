@@ -54,7 +54,7 @@ treevqa/
 ├── config/                 # Experiment configuration files
 │   ├── cobyla/             # COBYLA optimizer configs - fig 9
 │   ├── spsa/               # SPSA optimizer configs - fig 5
-│   └── noisy/              # Noisy simulation configs
+│   └── noisy/              # Noisy simulation configs - under construction
 ├── ground-state/           # Ground state energy computation
 ├── plot_util/              # Plotting and analysis scripts
 ├── scripts/                # Automated workflow scripts
