@@ -1,0 +1,18 @@
+{
+    "job-name": "test-h2",
+    "configs": [
+        {
+            "molecule": "H2",
+            "run_file": "main.py",
+            "molecule_slice": "0.4:0.5:0.01",
+            "vqe_iter": 1000,
+            "threshold": "0.3 -1e-4",
+            "window": 100,
+            "warmup": 200,
+            "vqe_step": 20,
+            "repetition": 2,
+            "result_dir": "results-test",
+            "optimizer_method": "COBYLAP"
+        }
+    ]
+}

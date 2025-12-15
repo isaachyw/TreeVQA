@@ -1,0 +1,25 @@
+{
+    "account": "YOUR_ACCOUNT_ID",
+    "email": "your.email@example.com",
+    "qos": "premium",
+    "time": "24:00:00",
+    "gpu": {
+        "constraint": "gpu",
+        "total_cpus": 32,
+        "total_memory": 80,
+        "modules": [
+            "texlive",
+            "cuda/11.7"
+        ]
+    },
+    "cpu": {
+        "constraint": "cpu",
+        "total_cpus": 48,
+        "total_memory": 240,
+        "modules": [
+            "texlive",
+            "julia"
+        ]
+    }
+}
+

@@ -1,0 +1,61 @@
+{
+    "job-name": "H2-uccsd",
+    "configs": [
+        {
+            "molecule": "H2",
+            "run_file": "main.py",
+            "molecule_slice": "0.74:0.83:0.02",
+            "vqe_iter": 400,
+            "threshold": "0.3 -0.0001",
+            "window": 40,
+            "warmup": 80,
+            "vqe_step": 20,
+            "result_dir": "results-spsa",
+            "ansatz": "UCCSD",
+            "repetition": 1,
+            "optimizer_method": "SPSAP"
+        },
+        {
+            "molecule": "H2",
+            "run_file": "single_vqe.py",
+            "molecule_slice": "0.74:0.83:0.01",
+            "vqe_iter": 800,
+            "threshold": "0.3 -0.0005",
+            "window": 40,
+            "warmup": 80,
+            "vqe_step": 20,
+            "result_dir": "results-spsa",
+            "ansatz": "UCCSD",
+            "repetition": 1,
+            "optimizer_method": "SPSAP"
+        },
+        {
+            "molecule": "H2",
+            "run_file": "main.py",
+            "molecule_slice": "0.74:0.83:0.02",
+            "vqe_iter": 400,
+            "threshold": "0.3 -0.0001",
+            "window": 40,
+            "warmup": 80,
+            "vqe_step": 20,
+            "result_dir": "results-cobyla",
+            "ansatz": "UCCSD",
+            "repetition": 1,
+            "optimizer_method": "COBYLAP"
+        },
+        {
+            "molecule": "H2",
+            "run_file": "single_vqe.py",
+            "molecule_slice": "0.74:0.83:0.01",
+            "vqe_iter": 800,
+            "threshold": "0.3 -0.0005",
+            "window": 40,
+            "warmup": 80,
+            "vqe_step": 20,
+            "result_dir": "results-cobyla",
+            "ansatz": "UCCSD",
+            "repetition": 1,
+            "optimizer_method": "COBYLAP"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "job-name": "osaka-ising",
+    "configs": [
+        {
+            "name": "ising-5node",
+            "problem": "ising",
+            "run_file": "main.py",
+            "model_type": "ising",
+            "num_node": 5,
+            "magnetic_fields": "0.96:1.05:0.01",
+            "vqe_iter": 30000,
+            "threshold": "0.3 -5e-5",
+            "window": 300,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-osaka-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "name": "ising-5node",
+            "problem": "ising",
+            "run_file": "single_vqe.py",
+            "model_type": "ising",
+            "num_node": 5,
+            "magnetic_fields": "0.96:0.98:0.01",
+            "vqe_iter": 10000,
+            "threshold": "0.3 -2e-5",
+            "window": 400,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-osaka-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "name": "ising-5node",
+            "problem": "ising",
+            "run_file": "single_vqe.py",
+            "model_type": "ising",
+            "num_node": 5,
+            "magnetic_fields": "0.99:1.01:0.01",
+            "vqe_iter": 10000,
+            "threshold": "0.3 -1e-5",
+            "window": 600,
+            "warmup": 1000,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-osaka-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "name": "ising-5node",
+            "problem": "ising",
+            "run_file": "single_vqe.py",
+            "model_type": "ising",
+            "num_node": 5,
+            "magnetic_fields": "1.02:1.05:0.01",
+            "vqe_iter": 10000,
+            "threshold": "0.3 -2e-5",
+            "window": 400,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-osaka-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        }
+    ]
+}

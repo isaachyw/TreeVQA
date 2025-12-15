@@ -1,0 +1,61 @@
+{
+    "job-name": "auckland",
+    "configs": [
+        {
+            "molecule": "LiH",
+            "run_file": "single_vqe.py",
+            "molecule_slice": "1.4:1.46:0.03",
+            "vqe_iter": 4000,
+            "threshold": "0.3 -5e-3",
+            "window": 300,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-auckland-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "molecule": "LiH",
+            "run_file": "single_vqe.py",
+            "molecule_slice": "1.49:1.55:0.03",
+            "vqe_iter": 4000,
+            "threshold": "0.3 -2e-5",
+            "window": 400,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-auckland-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "molecule": "LiH",
+            "run_file": "single_vqe.py",
+            "molecule_slice": "1.58:1.69:0.03",
+            "vqe_iter": 4000,
+            "threshold": "0.3 -1e-5",
+            "window": 600,
+            "warmup": 1000,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-auckland-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        },
+        {
+            "molecule": "LiH",
+            "run_file": "main.py",
+            "molecule_slice": "1.4:1.67:0.03",
+            "vqe_iter": 15000,
+            "threshold": "0.3 -2e-5",
+            "window": 400,
+            "warmup": 800,
+            "vqe_step": 50,
+            "repetition": 5,
+            "result_dir": "results-cobyla-auckland-5-reps",
+            "optimizer_method": "COBYLAP",
+            "noisy": true
+        }
+    ]
+}
