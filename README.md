@@ -4,6 +4,9 @@
 
 This repository contains the official implementation and artifact for reproducing the experiments in the paper.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17945742.svg)](https://doi.org/10.5281/zenodo.17945742)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## 📋 Requirements
@@ -131,3 +134,5 @@ If you find this work useful, please cite our paper:
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+[Zenodo](https://doi.org/10.5281/zenodo.17945742)
