@@ -6,6 +6,8 @@ This repository contains the official implementation and artifact for reproducin
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17945742.svg)](https://doi.org/10.5281/zenodo.17945742)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.12068-b31b1b.svg)](https://arxiv.org/abs/2512.12068)
+
 
 ---
 
@@ -134,5 +136,3 @@ If you find this work useful, please cite our paper:
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-[Zenodo](https://doi.org/10.5281/zenodo.17945742)
