@@ -125,9 +125,14 @@ When running on SLURM clusters, `juliacall` may deadlock during Julia package re
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{treevqa2025,
-  title={TreeVQA: A Tree-Structured Execution Framework for Shot Reduction in Variational Quantum Algorithms},
-  year={2025}
+@misc{hou2025treevqatreestructuredexecutionframework,
+      title={TreeVQA: A Tree-Structured Execution Framework for Shot Reduction in Variational Quantum Algorithms}, 
+      author={Yuewen Hou and Dhanvi Bharadwaj and Gokul Subramanian Ravi},
+      year={2025},
+      eprint={2512.12068},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2512.12068}, 
 }
 ```
 
